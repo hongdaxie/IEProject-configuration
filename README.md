@@ -1,4 +1,4 @@
-# IEProject-configuration
+# Nginx-configuration
 The configuration in the server 
 
 ### upload the configuration to /etc/nginx/sites-available/age50vaccine.ml
