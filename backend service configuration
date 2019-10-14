@@ -1,0 +1,16 @@
+[Unit]
+Description= 'springboot backend service'
+After=syslog.target
+After=network.target[Service]
+User= Hongda
+Type=simple
+
+[Service]
+ExecStart=/usr/bin/java -jar /var/www/age50vaccine.ml/html/backend/ie-project-back-end/target/springboot_01-1.0-SNAPSHOT.jar
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier= 'myapplication'
+
+[Install]
+WantedBy=multi-user.target
