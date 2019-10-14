@@ -1,3 +1,5 @@
+# These two configuration file is used to configure the host in AWS EC2 instance
+
 # Nginx-configuration
 The configuration in the server 
 
